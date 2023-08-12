@@ -5,7 +5,6 @@ import Map from './map';
 import { useTranslation } from 'react-i18next';
 
 const APIKey = process.env.REACT_APP_API_KEY;
-console.log(APIKey);
 const defaultCenter = {
     lat: 55.11862718142539,
     lng: 25
