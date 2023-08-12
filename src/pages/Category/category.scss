@@ -1,0 +1,472 @@
+@font-face {
+    font-family: Gilroy;
+    font-display: swap;
+    src: url(../../font/Gilroy-Medium.woff2) format("woff2");
+    src: url(../../font/Gilroy-Medium.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+.category_header {
+    margin: 20px 58px 123px 60px;
+}
+
+.category_picture {
+    max-width: 1802px;
+    position: relative;
+}
+.category_img {
+    width: 100%;
+}
+.category_title{
+    h1 {
+        position: absolute;
+        bottom: 11%;
+        left: 555px;
+        color: #FFF;
+        text-align: center;
+        font-family: "Gilroy";
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 80px;
+        span{
+            color: rgba(252, 213, 76, 1);
+        }
+    }
+}
+//main
+//section all
+.category_all {
+    margin: 0 58px 150px 60px;
+}
+.all_title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 85px;
+    h2 {
+        color: #FFF;
+        text-align: center;
+        font-family: "Gilroy";
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 80px;
+    }
+}
+.all_slides_img {
+    position: relative;
+    img {
+        width: 425px;
+        height: 430px;
+    }
+    .all_slides_name {
+        position: absolute;
+        left: 20%;
+        bottom: 137px;
+        color: #FFF;
+        text-align: center;
+        font-family: "Gilroy";
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px;
+    }
+}
+.all_slides_arrows {
+    display: flex;
+    align-items: baseline;
+    position: absolute;
+    right: 50px;
+    bottom: 40px;
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    .all_slides_arrows_arrows {
+        border: solid #FFF;
+        border-width: 0 1px 1px 0;
+        display: inline-block;
+        padding: 4px;
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        margin-right: 0;
+        margin-left: 5px;
+        cursor: pointer;
+    }
+}
+.all_slides_background_container {
+    background-color: #FCD54C;
+    width: 425px;
+    height: 430px;
+    h3 {
+        color: #272727;
+        font-family: "Gilroy";
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px; 
+        padding: 54px 0 70px 31px;
+    }
+    p {
+        padding-left: 31px;
+        color: #272727;
+        font-family: "Work Sans";
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+    }
+}
+.all_slides_background_arrows {
+    display: flex;
+    align-items: baseline;
+    color: #272727;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    padding-top: 60px;
+    padding-left: 285px;
+    .all_slides_background_arrows_arrows {
+        border: solid #272727;
+        border-width: 0 1px 1px 0;
+        display: inline-block;
+        padding: 4px;
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        margin-right: 0;
+        margin-left: 5px;
+        cursor: pointer;
+    }
+}
+.slick-prev:before {
+    content: '';
+    display: block;
+    border: solid #FCD54C;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 10px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(135deg);
+    margin-right: 0;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  .slick-next:before {
+    content: '';
+    display: block; 
+    border: solid #FCD54C;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 10px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    margin-right: 0;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+
+  //section category card
+  .category_offer {
+    margin: 0 60px 125px 60px;
+}
+.offer_title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    h3 {
+        color: #FFF;
+        text-align: center;
+        font-family: Gilroy;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 80px;
+    }
+}
+.offer_picture_line {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+//section apartments
+.category_apartments {
+   margin-left: 500px;
+   margin-right: 150px;
+}
+.category_apartments_title {
+    h2 {
+        color: #FFF;
+        font-family: "Gilroy";
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 35px;
+    }
+}
+.category_apartments_text {
+    margin: 50px 0 80px 0;
+    p {
+        color: #929292;
+        font-family: "Work Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        
+    }
+}
+.category_apartments_along {
+    h4 {
+        color: #FFF;
+        font-family: "Gilroy";
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px;
+    }
+}
+.category_apartments_along_text {
+    margin: 50px 0 160px 0;
+    p {
+        color: #929292;
+        font-family: "Work Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+
+    }
+}
+.category_form {
+    margin: 0 60px 0 60px;
+}
+
+//768px
+@media screen and (max-width: 768px) {
+    .category_header {
+        margin: 20px 15px 50px 15px;
+    }
+    .category_title{
+        h1 {
+            bottom: 7%;
+            left: 265px;
+            font-size: 40px;
+            line-height: 45px;
+            span{
+                color: rgba(252, 213, 76, 1);
+            }
+        }
+    }
+    //main
+    //section all
+    .category_all {
+        margin: 0 35px 120px 35px;
+    }
+    .all_title {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 55px;
+        h2 {
+            font-size: 40px;
+            line-height: 50px;
+        }
+    }
+    .all_slides_img {
+        img {
+            width: 275px;
+            height: 280px;
+        }
+        .all_slides_name {
+            font-size: 28px;
+        }
+    }
+    
+    .all_slides_background_container {
+        background-color: #FCD54C;
+        width: 275px;
+        height: 280px;
+        h3 {
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 26px; 
+            padding: 34px 0 20px 31px;
+        }
+        p {
+            padding-left: 31px;
+            font-size: 16px;
+        }
+    }
+    .all_slides_background_arrows {
+        padding-top: 0px;
+        padding-left: 170px;
+    }
+    .slick-prev:before {
+        margin-right: 0;
+        margin-left: 0px;
+      }
+      .slick-next:before {
+        margin-left: 0px;
+      }
+    //section category card
+    .category_offer {
+        margin: 0 15px 125px 20px;
+    }
+    .offer_title {
+        margin-bottom: 30px;
+        h3 {
+            font-size: 40px;
+            line-height: 60px;
+        }
+    }
+    //section apartments
+    .category_apartments {
+       margin-left: 60px;
+       margin-right: 50px;
+    }
+    .category_apartments_title {
+        h2 {
+            font-size: 40px;
+        }
+    }
+    .category_apartments_text {
+        margin: 30px 0 50px 0;
+        p {
+            font-size: 14px;
+        }
+    }
+    .category_apartments_along {
+        h4 {
+            font-size: 20px;
+        }
+    }
+    .category_apartments_along_text {
+        margin: 30px 20px 100px 0;
+        p {
+            color: #929292;
+            font-family: "Work Sans";
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px;
+            white-space: normal;
+        }
+    }
+    .category_form {
+        margin: 0 0 0 35px;
+    }
+}
+
+//320px
+@media screen and (max-width: 320px) {
+    .category_header {
+        margin: 10px 10px 40px 10px;
+    }
+    .category_title{
+        h1 {
+            bottom: 8%;
+            left: 110px;
+            font-size: 25px;
+            line-height: 30px;
+        }
+    }
+    //main
+    //section all
+    .category_all {
+        margin: 0 10px 150px 10px;
+    }
+    .all_title {
+        margin-bottom: 35px;
+        h2 {
+            font-size: 25px;
+            line-height: 30px;
+        }
+    }
+    .all_slides_img {
+        img {
+            width: 205px;
+            height: 210px;
+        }
+        .all_slides_name {
+            left: 25%;
+            bottom: 127px;
+            font-size: 20px;
+        }
+    }
+    .all_slides_arrows {
+        right: 15px;
+        bottom: 30px;
+        font-size: 16px;
+    }
+    .all_slides_background_container {
+        background-color: #FCD54C;
+        width: 205px;
+        height: 210px;
+        h3 {
+            font-size: 20px;
+            padding: 25px 0 15px 15px;
+        }
+        p {
+            padding-left: 15px;
+            font-size: 12px;
+            line-height: 14px;
+        }
+    }
+    .all_slides_background_arrows {
+        line-height: 16px;
+        padding-top: 30px;
+        padding-left: 100px;
+    }
+   
+      //section category card
+      .category_offer {
+        margin: 0 10px 60px 10px;
+    }
+    .offer_title {
+        margin-bottom: 20px;
+        h3 {
+            font-size: 35px;
+            line-height: 30px;
+        }
+    }
+    //section apartments
+    .category_apartments {
+       margin-left: 20px;
+       margin-right: 20px;
+    }
+    .category_apartments_title {
+        h2 {
+            font-size: 25px;
+            line-height: 20px;
+        }
+    }
+    .category_apartments_text {
+        margin: 30px 0 40px 0;
+        p {
+            font-size: 12px;
+            line-height: 16px;
+        }
+    }
+    .category_apartments_along {
+        h4 {
+            font-size: 16px;
+            line-height: 16px;
+        }
+    }
+    .category_apartments_along_text {
+        margin: 20px 0 60px 0;
+        p {
+            font-size: 12px;
+            line-height: 16px;
+            white-space: normal;
+        }
+    }
+    .category_form {
+        margin: 0;
+    }
+}

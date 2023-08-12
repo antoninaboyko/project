@@ -1,0 +1,229 @@
+@font-face {
+    font-family: Gilroy;
+    font-display: swap;
+    src: url(../../font/Gilroy-Medium.woff2) format("woff2");
+    src: url(../../font/Gilroy-Medium.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.slides {
+    max-width: 1802px;
+    position: relative;
+  }
+.page_header {
+    margin: 20px 58px 0 60px;
+}
+
+.slides_img {
+    width: 100%;
+    position: relative;
+}
+
+.slides_img_title {
+    position: absolute;
+    top: 28%;
+    left: 16%;
+    height: 265px;
+}
+.slides_title{
+    p {
+        position: absolute;
+        top: 33%;
+        left: 18%;
+        color: #FFF;
+        font-size: 14px;
+        font-family: "Work Sans";
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+    h1 {
+        position: absolute;
+        top: 32%;
+        left: 18%;
+        color: #FFF;
+        font-size: 70px;
+        font-family: "Space Grotesk";
+        font-style: normal;
+        font-weight: 700;
+        line-height: 80px;
+        text-transform: capitalize;
+        span{
+            color: rgba(252, 213, 76, 1);
+        }
+    }
+    h4 {
+        position: absolute;
+        top: 59%;
+        left: 18%;
+        color: #FFF;
+        font-size: 16px;
+        font-family: Work Sans;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    img {
+        height: 330px;
+    }
+}
+.messenger {
+    position: absolute;
+    top: 2%;
+    right: 1%;
+}
+.slides_button {
+    position: absolute;
+    left: 22%;
+    bottom: 4%;
+    .slides_button_prev {
+        text-decoration: none;
+        color: #FFF;
+        font-size: 18px;
+        font-family: "Gilroy";
+        font-style: normal;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        padding-right: 19px;
+        border-right: #FFF solid 1px;
+        &::after {
+            background-color: rgba(252, 213, 76, 1);
+        }
+        &:hover {
+            color: rgba(252, 213, 76, 1);
+        }
+    }
+    .slides_button_next {
+        text-decoration: none;
+        color: #ffffff5f;
+        font-size: 18px;
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        margin-left: 21px;
+        &::after {
+            background-color: rgba(252, 213, 76, 1);
+        }
+        &:hover {
+            color: rgba(252, 213, 76, 1);
+        }
+    }
+}
+
+.slides_container{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: absolute; 
+    background-color: #272727;
+    padding: 40px 38px 26px 50px;
+    top: 88%;
+    .number_one {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        .one {
+            position: absolute;
+            color: #FCD54C;
+            font-size: 54px;
+            font-family: "Gilroy";
+            font-style: normal;
+            font-weight: 700;
+            line-height: 24px;
+    
+        }
+        .number_text_one {
+            color: #FFF;
+            font-size: 14px;
+            font-family: "Work Sans";
+            font-style: normal;
+            font-weight: 600;
+            line-height: 26px;
+            white-space: nowrap;
+            padding-left: 77px;
+            padding-right: 80px;
+        }
+    }
+    .number_two {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 1;
+        width: 100%;
+        cursor: pointer;
+        .two {
+            color: #FFF;
+            font-size: 56px;
+            font-family: "Gilroy";
+            font-style: normal;
+            font-weight: 700;
+            line-height: 24px;
+        }
+        .number_text_two {
+            color: #FFF;
+            font-size: 14px;
+            font-family: "Work Sans";
+            font-style: normal;
+            font-weight: 600;
+            line-height: 26px;
+            white-space: nowrap;
+            padding-left: 37px;
+            padding-right: 80px;
+        }
+    }
+    .number_three {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 1;
+        width: 100%;
+        cursor: pointer;
+        .three {
+            color: #FFF;
+            font-size: 56px;
+            font-family: "Gilroy";
+            font-style: normal;
+            font-weight: 700;
+            line-height: 24px;
+           
+        }
+        .number_text_three {
+            color: #FFF;
+            font-size: 14px;
+            font-family: "Work Sans";
+            font-style: normal;
+            font-weight: 600;
+            line-height: 26px;
+            white-space: nowrap;
+            padding-left: 37px;
+        }
+    }
+}
+@media screen and (max-width: 1800px) {
+    .slides_number {
+        position: absolute;
+        display: flex;
+        justify-content: end;
+        left: 37%;
+        bottom: 0%;
+        max-width: 100%;
+        padding: 60px 38px 0 70px;
+        
+        img {
+            position: absolute;
+            width: 100%;
+        } 
+    }
+}

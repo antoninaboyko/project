@@ -1,0 +1,118 @@
+.offer_line_block {
+    position: relative;
+    flex: 0 0 calc(20% - 20px);
+    margin-bottom: 280px;
+    img {
+        width: 426px;
+    }
+}
+
+.offer_line_block_text {
+    width: 426px;
+    height: 297px;
+    position: absolute;
+    top: 90%;
+    justify-content: space-between;
+    gap: 30px;
+    border: 1px solid #FCD54C;
+    background-color: #272727;
+    &:hover {
+        border: 1px solid #272727;
+        background-color: #FCD54C;
+        color: #272727;
+    }
+    .offer_block_text {
+        padding-top: 37px;
+        padding-right: 40px;
+        color: #FFF;
+        font-family: "Work Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        &:hover {
+            color: #272727;
+        }
+    }
+    h4 {
+        color: #FFF;
+        font-family: "Gilroy";
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 35px;
+        padding: 17px 0px 0 40px;
+        &:hover {
+            color: #272727;
+        }
+    }
+    p {
+        color: #929292;
+        font-family: "Gilroy";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        padding: 17px 100px 0 40px;
+        &:hover {
+            color: #272727;
+        }
+    }
+    h5 {
+        color: #FFF;
+        font-family: "Work Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+        padding-left: 40px;
+        padding-top: 27px;
+        &:hover {
+            color: #272727;
+        }
+    }
+    
+}
+.offer_line_block_arrows {
+    display: flex;
+    align-items: baseline;
+    .offer_line_block_arrows_arrows {
+        border: solid #FFF;
+        border-width: 0 1px 1px 0;
+        display: inline-block;
+        padding: 4px;
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        margin-right: 0;
+        margin-left: 5px;
+        cursor: pointer;
+        
+    }
+}
+@media screen and (max-width: 768px) {
+    .offer_line_block {
+        img {
+            width: 330px;
+        }
+    }
+    .offer_line_block_text {
+        width: 330px;
+        p {
+            padding: 17px 30px 0 40px;
+            &:hover {
+                color: #272727;
+            }
+        }
+    }
+}
+@media screen and (max-width: 320px) {
+    .offer_line_block {
+        margin-bottom: 280px;
+        img {
+            width: 290px;
+        }
+    }
+    .offer_line_block_text {
+        width: 290px;
+    }
+}
