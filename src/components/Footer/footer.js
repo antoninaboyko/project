@@ -83,14 +83,14 @@ const Footer = () => {
                 </div>
             </div>
             <div className="footer_colum_contact">
-                <button className="footer_colum_title_link" type='button'> <a href="/">{t('footer.Contact')}</a></button>
+                <button className="footer_colum_title_link" type='button'> <a href="/contact">{t('footer.Contact')}</a></button>
                 <div className="footer_colum_link_contact" >
                     <div className="footer_colum_link">
-                        <a href="/">
+                        <a href="/contact">
                         964 Worthington Drive<br />
                         Dubai, UAE</a>
                         </div>
-                    <div className="footer_colum_link"><a href="/">dubairealty@mail.com</a></div>
+                    <div className="footer_colum_link"><a href="/contact">dubairealty@mail.com</a></div>
                     <button className="footer_button" onClick={() => setWindowActive(!windowActive)}>{t('footer.Book a consultation')}</button>
                     < PopUP windowActive={windowActive} setWindowActive={setWindowActive}/>
                 </div>
